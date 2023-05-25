@@ -1,0 +1,1 @@
+Cree une *organisation* dans GitHub pour pouvoir lier le online repository avec JIRA

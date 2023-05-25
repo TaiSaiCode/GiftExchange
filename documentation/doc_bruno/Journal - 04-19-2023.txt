@@ -1,0 +1,21 @@
+tester les classes tailwindcss: succes
+
+installer bootstrap: npm i bootstrap --save
+
+tester les composants bootstrap (NavbarTop.jsx): echec
+
+ajouter le fichier bootstrap.js du dossier node_modules avec un useEffect (sur component load): 
+
+	useEffect(() => {
+        typeof document !== undefined
+            ? import('bootstrap/dist/js/bootstrap')
+                .then(() => console.log('Bootrap javascript library loaded'))
+                .catch((error) => BsController.log('Failed to load Boostrap javascript', error))
+            : null;
+    }, []); // This javascript is needed to make the Navbar work!
+	
+---
+
+tester les composants bootstrap Modal et NavbarTop: succes
+
+Refaire le Layout avec Etienne, Franck et Tom

@@ -1,0 +1,12 @@
+installé et configuré Tailwind CSS dans l'application frontend (React)
+
+mis-à-jour le document "Presentation du Projet".  Inclure les instructions comment exécuter l'application Fullstack
+
+crée le composant SigninLoginCard (30 minutes)
+
+configure un compte ZOHO Mail (Gmail n'offre plus la possibilite d'envoyer des courriels avec des apps non secures) pour pouvoir envoyer des courriels a partir de l'application ASP.NET en C# (1 heure)
+
+Ajoute un classe EmailUtility pour envoyer des courriels de l'application serveur (3 heures)
+
+
+

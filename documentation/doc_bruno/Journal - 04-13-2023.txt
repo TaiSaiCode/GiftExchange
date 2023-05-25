@@ -1,0 +1,5 @@
+dans le composant <About />, utiliser fetch pour recuperer les coéquipiers travaillant sur ce projet de la base de données (30 minutes)
+
+presenter l'application react / frontend au groupe (20 minutes)
+
+travailler avec l'equipe pour fixer un probleme de fusions de branches qui a cree des conflits, et ou on a perdu du code (1h30)

@@ -1,0 +1,22 @@
+crée les classes d'entités de base de données en approche code first: Users, GroupUsers, Gifts, Groups
+crée GiftExchangeDbContext.js
+mis a jour le fichier program.cs pour créer la base de données MSSQL si elle n'existe pas
+mis à jour le fichier personnalConfigs.json crée par Étienne pour y inscrire le nom de mon host/ordinateur
+
+---
+
+On doit avoir .NET 7 pour exécuter l'application: Windows x64 installer: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-7.0.202-windows-x64-installer
+
+---
+
+added GiftExchange Database Diagram v1 to the documentation
+
+---
+
+
+Considération de TailwindCSS comme alternative à react-bootstrap:
+https://tailwindcss.com/
+
+---
+
+

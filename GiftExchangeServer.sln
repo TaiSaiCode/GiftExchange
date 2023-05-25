@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiftExchangeServer", "GiftExchangeServer\GiftExchangeServer.csproj", "{116D58A6-E59B-4088-8003-AD4C7DA09F2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{116D58A6-E59B-4088-8003-AD4C7DA09F2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{116D58A6-E59B-4088-8003-AD4C7DA09F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{116D58A6-E59B-4088-8003-AD4C7DA09F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{116D58A6-E59B-4088-8003-AD4C7DA09F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99293B9A-E36E-474C-B478-BF967D5F6D64}
+	EndGlobalSection
+EndGlobal

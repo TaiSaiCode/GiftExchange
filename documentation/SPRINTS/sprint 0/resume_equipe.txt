@@ -1,0 +1,25 @@
+Gestion projet
+
+Cycle de vie
+
+Livrable : une maquette comme vision du produits. 
+
+Vision du produit : maquette de Bruno
+
+Backlog produits : priorités, nombre heure de chaque fonctionnalité
+
+Plan du sprint : sprint 1 telle date a telle date, cumul des personnes et nombre heures
+
+Roles en agile :
+- Product Owner : Bruno
+- SCRUM master : Joey
+- Équipe Scrum : Joey, Bruno, Tom, Franck, Étienne, Nicolas
+
+2 rencontres scrum par semaines environ 15 minutes : répondrons aux 3 questions dites dans la formation
+
+On planifie de faire un Gift-Exchange
+
+Nous planifions d'utiliser les 6 livrables de la methodologie agile
+
+Front-end : REACT
+Back-end : C#

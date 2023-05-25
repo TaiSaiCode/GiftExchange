@@ -1,0 +1,7 @@
+personnalConfigs.json
+
+{
+    "ConnectionStrings": {
+        "GiftExchangeDatabase": "data source=ALIENWARE2023;initial catalog=giftExchange_db;Trusted_Connection=True;MultipleActiveResultSets=true;Encrypt=false"
+    }
+}

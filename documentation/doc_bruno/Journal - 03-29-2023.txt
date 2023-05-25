@@ -1,0 +1,8 @@
+creation du repo git https://github.com/holabruno/projet-integration-gr809-crosemont-2023.git
+invitation des membres de l'equipe
+invitation de sylvain sl.sylvainlabranche@gmail.com au repo GitHub
+
+creation du projet JIRA (on a finalement decide d'utiliser celui d'Etienne Robert: https://lespetitesbaleinesbleues.atlassian.net/jira/software/projects/GE/boards/1
+
+
+

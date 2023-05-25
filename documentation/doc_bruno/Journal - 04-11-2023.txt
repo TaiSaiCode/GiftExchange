@@ -1,0 +1,1 @@
+troubleshoot requetes du localhost frontend -> backend CORS issue: ajouter un cors middleware dans le backend ASP.NET pour permettre les requêtes de l'application web React (2 heures)

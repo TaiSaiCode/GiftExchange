@@ -1,0 +1,1181 @@
+commit 5d001fa6e7430478b3d582bc2c579d12a4b2737d
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Tue May 16 05:54:19 2023 -0400
+
+    added cahier des charges - sprint3 to bruno's doc
+
+ documentation/doc_bruno/cahier de charges - sprint 3.docx | Bin 0 -> 142404 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 403096fd66d39c66f1a64e49570fa4e973918c22
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Mon May 15 21:50:48 2023 -0400
+
+    updated documentation for sprint 3 / cahier des charges
+
+ documentation/SPRINTS/sprint 3/cahier de charges - sprint 3.docx | Bin 142242 -> 142404 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit d3a3325b01f6ed9281ef6c6b72e5c3d5af9c51e3
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Mon May 15 21:45:35 2023 -0400
+
+    changed order of fields in RegisterCard component
+
+ GiftExchangeClient/src/Components/RegisterAndLogin/RegisterCard.jsx | 365 ++++++++++++++++++++++++++-------------------------
+ documentation/SPRINTS/sprint 3/cahier de charges - sprint 3.docx    | Bin 142345 -> 142242 bytes
+ 2 files changed, 184 insertions(+), 181 deletions(-)
+
+commit 9631e08a0db462b2c8343803db34bb8485415733
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Mon May 15 21:24:00 2023 -0400
+
+    fixed responsiveness in layout
+
+ .vscode/settings.json          |   4 ++
+ GiftExchangeClient/src/App.jsx | 286 +++++++++++++++++++++++++++++++++++++++++++++-------------------------------------------
+ 2 files changed, 149 insertions(+), 141 deletions(-)
+
+commit 3e04889964cdff1d3f4ac9e30b17b4a38f5fac5e
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Mon May 15 19:57:56 2023 -0400
+
+    replaced input=date by custom input
+
+ GiftExchangeClient/src/Components/Group/GroupEdit.jsx | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+
+commit e5a60a00117b53d18211d0567eed997201844cd5
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Mon May 15 19:51:26 2023 -0400
+
+    fixed date display in editGroup component
+
+ GiftExchangeClient/src/Components/Group/GroupEdit.jsx            | 9 +++++----
+ GiftExchangeClient/src/Components/Pages/GroupTabsPage.jsx        | 3 ++-
+ GiftExchangeClient/src/Components/Styled/InputWithValidation.jsx | 2 +-
+ 3 files changed, 8 insertions(+), 6 deletions(-)
+
+commit 6a1d8fc558d706cc944a19835e6894dcc07bf262
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Mon May 15 19:25:05 2023 -0400
+
+    fixed date display in GroupMemberCard (not showing indefini anymore
+
+ GiftExchangeClient/src/Components/Group/GroupEdit.jsx       |  3 ++-
+ GiftExchangeClient/src/Components/Group/GroupMemberCard.jsx |  2 +-
+ GiftExchangeClient/src/Components/Pages/GroupTabsPage.jsx   |  6 +++---
+ GiftExchangeClient/src/Components/Styled/Customs.jsx        | 50 ++++++++++++++++++++++++++------------------------
+ GiftExchangeServer/Data/DTO/GroupManagement.cs              |  1 +
+ 5 files changed, 33 insertions(+), 29 deletions(-)
+
+commit 7c76c1a8e8eb8aa655086a808434072b0bed498d
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Mon May 15 17:54:01 2023 -0400
+
+    updated help page
+
+ GiftExchangeClient/src/Components/Pages/Help.jsx                 |  18 ++++++++++++------
+ documentation/Initial Setup/_Instructions.docx                   |   0
+ documentation/SPRINTS/sprint 3/cahier de charges - sprint 3.docx | Bin 141873 -> 142345 bytes
+ 3 files changed, 12 insertions(+), 6 deletions(-)
+
+commit b69c237ab3dd6733270fc041320ac96cb5603ea2
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Mon May 15 17:26:00 2023 -0400
+
+    updated documentation
+
+ GiftExchangeClient/src/Components/Create-group/CreateGroup.jsx   |  83 +++++++++++++++++++++++++++++-------------------------
+ GiftExchangeClient/src/Components/Pages/ListGroup.jsx            |   1 +
+ documentation/Initial Setup/groupusers.sql                       |  51 +++++++++++++++++++++++++++++++++
+ documentation/Initial Setup/users.sql                            |  49 ++++++++++++++++++++++++++++++++
+ documentation/SPRINTS/sprint 3/cahier de charges - sprint 3.docx | Bin 128898 -> 141873 bytes
+ 5 files changed, 145 insertions(+), 39 deletions(-)
+
+commit feb515910d94e95a2a710570d99653e544f3adec
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Mon May 15 12:08:08 2023 -0400
+
+    modified email invitation url to use params in querystring
+
+ GiftExchangeServer/Controllers/GroupsController.cs | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+commit ffd7b0d0a23698d86ded2f6eb5ab994930340e4d
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Mon May 15 11:48:18 2023 -0400
+
+    adding EventDate to Groups back/front end
+
+ GiftExchangeClient/src/Components/Create-group/CreateGroupCard.jsx               |  12 ++
+ GiftExchangeClient/src/Components/Group/GroupEdit.jsx                            | 200 ++++++++++++------------
+ GiftExchangeClient/src/Components/Group/GroupMemberCard.jsx                      |  16 +-
+ GiftExchangeClient/src/Components/Pages/GroupTabsPage.jsx                        |  18 ++-
+ GiftExchangeServer/Controllers/GroupsController.cs                               |   2 +
+ GiftExchangeServer/Data/DTO/GroupManagement.cs                                   |   4 +-
+ GiftExchangeServer/Data/DTO/GroupRegisterRequest.cs                              |   2 +-
+ GiftExchangeServer/Data/DTO/GroupWithAdmin.cs                                    |   5 +-
+ GiftExchangeServer/Data/Entities/Group.cs                                        |   3 +-
+ .../Migrations/20230515152419_added EventDate field to Groups table.Designer.cs  | 312 ++++++++++++++++++++++++++++++++++++++
+ .../Migrations/20230515152419_added EventDate field to Groups table.cs           |  28 ++++
+ GiftExchangeServer/Migrations/GiftExchangeDbContextModelSnapshot.cs              |   3 +
+ documentation/SPRINTS/sprint 3/cahier de charges - sprint 3.docx                 | Bin 127105 -> 128898 bytes
+ 13 files changed, 493 insertions(+), 112 deletions(-)
+
+commit faa534f014743d8def70a2b21369a2ba9689dfd3
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Sat May 13 22:57:49 2023 -0400
+
+    added some cool stuff with Nic
+
+ GiftExchangeClient/src/Components/Group/GroupMatches.jsx                         | 122 +++++++++------
+ GiftExchangeClient/src/Components/Styled/ButtonSample.jsx                        |   6 +-
+ GiftExchangeServer/Controllers/GroupsController.cs                               |   6 +-
+ GiftExchangeServer/Data/DTO/GroupManagement.cs                                   |   2 +
+ GiftExchangeServer/Data/Entities/Group.cs                                        |   2 +-
+ .../Migrations/20230514002437_Added-HasBeenDrawn-field-to-group.Designer.cs      | 309 ++++++++++++++++++++++++++++++++++++++
+ .../Migrations/20230514002437_Added-HasBeenDrawn-field-to-group.cs               |  29 ++++
+ .../Migrations/20230514005029_added-hasbeendrawn-to-groupDTO.Designer.cs         | 309 ++++++++++++++++++++++++++++++++++++++
+ GiftExchangeServer/Migrations/20230514005029_added-hasbeendrawn-to-groupDTO.cs   |  22 +++
+ .../20230514010436_changed group dto constructor to include HBD.Designer.cs      | 309 ++++++++++++++++++++++++++++++++++++++
+ .../Migrations/20230514010436_changed group dto constructor to include HBD.cs    |  22 +++
+ GiftExchangeServer/Migrations/GiftExchangeDbContextModelSnapshot.cs              |   3 +
+ 12 files changed, 1092 insertions(+), 49 deletions(-)
+
+commit 86f128a4123b931e70891be05428d36f11c2c835
+Merge: 7883b11 8ca829c
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Fri May 12 09:58:48 2023 -0400
+
+    Merge branch 'main' of https://github.com/crosemont809/giftexchange
+
+commit 7883b11fa7da934d7883dfed2485bef71a1a6952
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Fri May 12 09:58:26 2023 -0400
+
+    removed list-items image and created sprint3 cahier des charges
+
+ GiftExchangeClient/src/Components/Wishlist/Wishlist.jsx          |  15 +++------------
+ documentation/SPRINTS/sprint 3/cahier de charges - sprint 3.docx | Bin 0 -> 127105 bytes
+ 2 files changed, 3 insertions(+), 12 deletions(-)
+
+commit 85af6c85b807bb6f64a05b6ca06744ced4c10748
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Mon May 8 11:25:56 2023 -0400
+
+    removed unused imports
+
+ GiftExchangeClient/src/Components/Wishlist/Wishlist.jsx | 7 +++----
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+
+commit eba619df058891ff4661b3a82831502baa04b0bb
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Mon May 8 11:23:51 2023 -0400
+
+    removed unused handleDescriptionChange method in GIftForm component
+
+ GiftExchangeClient/src/Components/Wishlist/GiftForm.jsx | 6 +-----
+ 1 file changed, 1 insertion(+), 5 deletions(-)
+
+commit 9068cc6fc31d49d694e89204f10a780efe281caf
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Mon May 8 11:21:16 2023 -0400
+
+    refactored Form.controls into GiftTextblock in GiftForm.jsx
+
+ GiftExchangeClient/src/Components/Participants/ParticipantJoinCard.jsx | 74 ++++++++++++++++++++++++-------------------------
+ GiftExchangeClient/src/Components/Wishlist/GiftForm.jsx                | 46 +++++++++++-------------------
+ GiftExchangeClient/src/Components/Wishlist/GiftTextblock.jsx           | 24 ++++++++++++++++
+ 3 files changed, 77 insertions(+), 67 deletions(-)
+
+commit 31d5be5fa47de617f67e345f7b715792525096ad
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed May 3 19:06:56 2023 -0400
+
+    added my documentation for the last 3 days
+
+ documentation/doc_bruno/Journal de bord - Bruno Theoret.docx | Bin 28520 -> 28660 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit c21c64c20a2ef2f66a0ce351b6514aab97fe37de
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed May 3 18:14:11 2023 -0400
+
+    changed reset modal fields in gift add/modify
+
+ GiftExchangeClient/src/Components/Wishlist/GiftForm.jsx | 10 +---------
+ 1 file changed, 1 insertion(+), 9 deletions(-)
+
+commit 1ecde36e4a0eac03593e9c093d1d8c0cb1473b6e
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed May 3 18:08:48 2023 -0400
+
+    finished modify gift, and debugging post & put requests
+
+ GiftExchangeClient/src/Components/Wishlist/GiftForm.jsx  | 38 +++++++++++--------------
+ GiftExchangeClient/src/Components/Wishlist/GiftModal.jsx |  4 +--
+ GiftExchangeClient/src/Components/Wishlist/Wishlist.jsx  | 76 +++++++++++++++++++++++++++++++++++++++-----------
+ GiftExchangeServer/Controllers/GiftsController.cs        | 96 ++++++++++++++++++++++++++++++++++++---------------------------
+ 4 files changed, 133 insertions(+), 81 deletions(-)
+
+commit b0a55c255da7235d71c5b3b3354ff9ff4af2c54d
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed May 3 13:10:44 2023 -0400
+
+    added post feature in the frontend
+
+ GiftExchangeClient/src/App.jsx                                       |  6 +++---
+ GiftExchangeClient/src/Components/Wishlist/GiftCommandButtonsBar.jsx | 32 +++++---------------------------
+ GiftExchangeClient/src/Components/Wishlist/GiftForm.jsx              | 44 ++++++++++++++++++++++++++++++++++----------
+ GiftExchangeClient/src/Components/Wishlist/GiftModal.jsx             |  4 ++--
+ GiftExchangeClient/src/Components/Wishlist/Wishlist.jsx              | 22 +++++++++++++---------
+ GiftExchangeServer/Controllers/GiftsController.cs                    | 38 ++++++++++++++++++++++++++++++--------
+ GiftExchangeServer/Data/DTO/GiftInfo.cs                              |  4 ++++
+ 7 files changed, 91 insertions(+), 59 deletions(-)
+
+commit 2688ef24ae39adc0ba08a8bc584c755dbc6318dc
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Mon May 1 12:38:22 2023 -0400
+
+    updated cahier des charges sprint 2
+
+ documentation/SPRINTS/sprint 2/cahier de charges - sprint 2.docx | Bin 1533294 -> 1791681 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 97219a34ed4f273039cca52d8e823098aab8a704
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Mon May 1 12:36:29 2023 -0400
+
+    committing before switching to main
+
+ GiftExchangeClient/src/Components/Wishlist/Wishlist.jsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 5ad252fc81e00f56504677b91fafcfc674dd5220
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Mon May 1 11:29:12 2023 -0400
+
+    added cahier des charges - sprint 2
+
+ documentation/SPRINTS/sprint 2/cahier de charges - sprint 2.docx | Bin 0 -> 1533294 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit dd0cf27a5f73827b2da6a6750f6aa0ac14c284a0
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Mon May 1 09:58:02 2023 -0400
+
+    added final documentation for sprint 2
+
+ documentation/doc_bruno/Journal - 04-14-2023.txt             |   2 ++
+ documentation/doc_bruno/Journal de bord - Bruno Theoret.docx | Bin 27517 -> 28520 bytes
+ 2 files changed, 2 insertions(+)
+
+commit e3beca4cb6a026f7a96daff3f01e50a745027ab6
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Mon May 1 09:39:28 2023 -0400
+
+    fixed delete gift errro on client
+
+ GiftExchangeClient/src/Components/Wishlist/Wishlist.jsx | 8 +++++---
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+
+commit eba9a21f38693f4d2881b2ce9aa19738b5595a0f
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Fri Apr 28 16:33:49 2023 -0400
+
+    finished delete gift feature in both the front & backend (working)
+
+ GiftExchangeClient/src/Components/Wishlist/GiftModal.jsx |  2 +-
+ GiftExchangeClient/src/Components/Wishlist/Wishlist.jsx  | 21 +++++++++++++++------
+ GiftExchangeServer/Controllers/GiftsController.cs        |  7 ++++++-
+ 3 files changed, 22 insertions(+), 8 deletions(-)
+
+commit 279f154f3c52826c127cf5b0bbd9431f064dcede
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Fri Apr 28 12:07:34 2023 -0400
+
+    finished removing canAdd and fixed gift card list
+
+ GiftExchangeClient/src/Components/Wishlist/GiftCommandButtonsBar.jsx |   2 +-
+ GiftExchangeClient/src/Components/Wishlist/GiftForm.jsx              | 157 +++++++++++++++++++-------------------------------
+ GiftExchangeClient/src/Components/Wishlist/GiftModal.jsx             |  10 ++--
+ GiftExchangeClient/src/Components/Wishlist/Wishlist.jsx              |   7 +--
+ 4 files changed, 66 insertions(+), 110 deletions(-)
+
+commit 439047bbf061221e2ed9dc64523554ea0459a85a
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Fri Apr 28 11:37:50 2023 -0400
+
+    committing before removing canAddGift in whishlist > giftModal > GiftForm
+
+ GiftExchangeClient/src/Components/Wishlist/GiftForm.jsx      | 110 ++++++++++++++++++++++++++++++++++++----------------------
+ GiftExchangeClient/src/Components/Wishlist/GiftModal.jsx     |   2 +-
+ GiftExchangeServer/Controllers/GiftsController.cs            |   4 ++-
+ GiftExchangeServer/Data/DTO/GiftInfo.cs                      |  20 ++++++-----
+ documentation/doc_bruno/Journal de bord - Bruno Theoret.docx | Bin 27818 -> 27517 bytes
+ 5 files changed, 85 insertions(+), 51 deletions(-)
+
+commit 234fcce6725ff338ff3330934d4291fad7897e40
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Fri Apr 28 10:56:38 2023 -0400
+
+    adding bootstrap className for responsiveness
+
+ GiftExchangeClient/public/images/list-item-gift.png                              | Bin 0 -> 559 bytes
+ GiftExchangeClient/src/App.jsx                                                   |  10 +-
+ GiftExchangeClient/src/Components/Pages/About.jsx                                |  39 +++---
+ GiftExchangeClient/src/Components/Pages/AdminPanel/GiftExchangeOptions.jsx       |  38 ++++++
+ GiftExchangeClient/src/Components/Pages/AdminPanel/tabs/Draw.jsx                 |   9 ++
+ GiftExchangeClient/src/Components/Pages/AdminPanel/tabs/Gifts.jsx                |   9 ++
+ GiftExchangeClient/src/Components/Pages/AdminPanel/tabs/Group.jsx                |   9 ++
+ GiftExchangeClient/src/Components/Pages/AdminPanel/tabs/Participants.jsx         |   9 ++
+ GiftExchangeClient/src/Components/Pages/AdminPanel/tabs/Profile.jsx              |   9 ++
+ GiftExchangeClient/src/Components/Pages/Help.jsx                                 |  17 ++-
+ GiftExchangeClient/src/Components/Wishlist/GiftCommandButtonsBar.jsx             |  14 +-
+ GiftExchangeClient/src/Components/Wishlist/GiftForm.jsx                          |  19 +--
+ GiftExchangeClient/src/Components/Wishlist/GiftModal.jsx                         |   2 +-
+ GiftExchangeClient/src/Components/Wishlist/Wishlist.jsx                          |  65 +++++++---
+ GiftExchangeServer/Data/Entities/Gift.cs                                         |   2 +
+ .../Migrations/20230428124016_Added-URL-and-IMAGE-to-gift-entity.Designer.cs     | 263 ++++++++++++++++++++++++++++++++++++++
+ .../Migrations/20230428124016_Added-URL-and-IMAGE-to-gift-entity.cs              |  40 ++++++
+ GiftExchangeServer/Migrations/GiftExchangeDbContextModelSnapshot.cs              |   8 ++
+ documentation/doc_bruno/Journal de bord - Bruno Theoret.docx                     | Bin 27304 -> 27818 bytes
+ 19 files changed, 511 insertions(+), 51 deletions(-)
+
+commit 73782ff697747d3b61740c9eea74ee9b3ac7c43e
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Thu Apr 27 19:34:48 2023 -0400
+
+    changed api url in frontend for wishlist
+
+ GiftExchangeClient/src/Components/Wishlist/Wishlist.jsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit a60d18c45b9f897d1b426685ad79d58d55459223
+Merge: 3b7ef22 8c839a6
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Thu Apr 27 19:29:26 2023 -0400
+
+    Merge branch 'main' into fix/wishlist-card
+
+commit 3b7ef22264a6f59f15f10c9cb525ed66755616f6
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Thu Apr 27 19:28:38 2023 -0400
+
+    commiting shit
+
+ GiftExchangeClient/src/Components/Styled/InputWithValidation.jsx | 2 +-
+ GiftExchangeServer/Controllers/GiftsController.cs                | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 032a77e5f9a214733db44494cbca3c8b63f9f933
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Thu Apr 27 18:49:15 2023 -0400
+
+    can now get gifts from api in wishlist component
+
+ GiftExchangeClient/src/Components/Wishlist/Wishlist.jsx | 14 ++++++++++----
+ GiftExchangeServer/Controllers/GiftsController.cs       |  5 ++++-
+ 2 files changed, 14 insertions(+), 5 deletions(-)
+
+commit cba795b16f6d8d8e3ac3d16d6ff2efaeb2814709
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Thu Apr 27 18:19:40 2023 -0400
+
+    forgot to switch branch before creating Gift feature on server
+
+ GiftExchangeServer/Controllers/GiftsController.cs | 129 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ GiftExchangeServer/Data/DTO/GiftInfo.cs           |  23 +++++++++++++
+ 2 files changed, 152 insertions(+)
+
+commit f2fd57450ab910cddd458151ceb5114504d53f2a
+Merge: 8c839a6 1376236
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Thu Apr 27 18:18:20 2023 -0400
+
+    WIP on main: 8c839a6 Merge pull request #17 from crosemont809/database-update
+
+commit 1376236ff22653e9049b7316217aef39db54311e
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Thu Apr 27 18:18:20 2023 -0400
+
+    index on main: 8c839a6 Merge pull request #17 from crosemont809/database-update
+
+ GiftExchangeClient/src/Components/Styled/InputWithValidation.jsx |   2 +-
+ GiftExchangeServer/Controllers/GiftsController.cs                | 129 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ GiftExchangeServer/Data/DTO/GiftInfo.cs                          |  23 ++++++++++
+ 3 files changed, 153 insertions(+), 1 deletion(-)
+
+commit 6f00a05e06d5a25b586d2e4abb52cf5924ffd1a3
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Thu Apr 27 17:28:27 2023 -0400
+
+    added about Gift-XChange information in about page, fixing gift-card
+
+ GiftExchangeClient/src/Components/Pages/About.jsx       | 8 +++++++-
+ GiftExchangeClient/src/Components/Wishlist/Wishlist.jsx | 3 +++
+ 2 files changed, 10 insertions(+), 1 deletion(-)
+
+commit 38973ed1b4213407b302b4b77bd11a28b28901ed
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Thu Apr 27 16:15:10 2023 -0400
+
+    stashed database-update from main
+
+ .../Migrations/20230427201103_SeededSomeDataToDatabase.Designer.cs               | 319 ++++++++++++++++++++++++++++++++++++++
+ GiftExchangeServer/Migrations/20230427201103_SeededSomeDataToDatabase.cs         |  83 ++++++++++
+ 2 files changed, 402 insertions(+)
+
+commit 53bc2d6bfa23342b617130c71ff58c218b04f105
+Merge: 4469f03 9aac14d
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Thu Apr 27 15:23:43 2023 -0400
+
+    Merge branch 'main' of https://github.com/crosemont809/giftexchange
+
+commit 4469f03cfa5fbd9408d2f84eb35e6d9e6e680d18
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Thu Apr 27 15:23:29 2023 -0400
+
+    changed about page
+
+ GiftExchangeClient/src/Components/Pages/About.jsx | 27 +++++++++++----------------
+ 1 file changed, 11 insertions(+), 16 deletions(-)
+
+commit 9939123734804420e2c18e901cc68a958b37a10f
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Thu Apr 27 14:06:04 2023 -0400
+
+    added regex validation to server code
+
+ GiftExchangeClient/src/App.jsx                                   |   2 +-
+ GiftExchangeClient/src/Components/Styled/InputWithValidation.jsx |   2 +-
+ GiftExchangeClient/src/Components/Wishlist/GiftForm.jsx          |   2 +-
+ GiftExchangeClient/src/Components/Wishlist/Wishlist.jsx          |  16 +++++----
+ GiftExchangeServer/Controllers/UsersController.cs                | 102 +++++++++++++++++++++++++++++-------------------------
+ GiftExchangeServer/Utils/{EmailUtility.cs => Email.cs}           |   2 +-
+ GiftExchangeServer/Utils/Validation.cs                           |  71 +++++++++++++++++++++++++++++++++++++
+ documentation/doc_bruno/Journal de bord - Bruno Theoret.docx     | Bin 26034 -> 27304 bytes
+ 8 files changed, 138 insertions(+), 59 deletions(-)
+
+commit 0857bf1a82fe87de62fd960d7ddbcf5fef8ebc00
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Apr 26 15:18:14 2023 -0400
+
+    fixed show gift blank after add
+
+ GiftExchangeClient/src/Components/Wishlist/GiftCommandButtonsBar.jsx |  24 ++++++++-
+ GiftExchangeClient/src/Components/Wishlist/GiftForm.jsx              | 137 ++++++++++++++++++++++++++++++++++----------------
+ GiftExchangeClient/src/Components/Wishlist/GiftModal.jsx             |  17 +++----
+ GiftExchangeClient/src/Components/Wishlist/Wishlist.jsx              |  15 ++++--
+ 4 files changed, 136 insertions(+), 57 deletions(-)
+
+commit ad9ebaef05bb70afea723719e408ee6058576e4c
+Merge: 0783e52 8b03bb6
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Apr 26 11:12:39 2023 -0400
+
+    Merge branch 'main' into feature/wishlist
+
+commit 0783e5200352fbb671845236057ba1ff3ca95e53
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Apr 26 11:07:57 2023 -0400
+
+    changed form's input value to defaultValue
+
+ GiftExchangeClient/src/Components/Wishlist/GiftForm.jsx | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit 0e4ed33d8ff64910238e929e66f48d97b00649f9
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Apr 26 09:59:24 2023 -0400
+
+    fixed show values in GiftForm's inputs
+
+ GiftExchangeClient/src/Components/Wishlist/GiftForm.jsx  | 17 +++++++++--------
+ GiftExchangeClient/src/Components/Wishlist/GiftModal.jsx |  4 ++--
+ 2 files changed, 11 insertions(+), 10 deletions(-)
+
+commit 3e86f2a2269b0f1d6760931cf7942e5c074066bf
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Apr 26 09:15:48 2023 -0400
+
+    fixed show GIft in modal
+
+ GiftExchangeClient/public/images/gift.png                | Bin 0 -> 137013 bytes
+ GiftExchangeClient/src/Components/Wishlist/GiftForm.jsx  |  50 ++++++++++++++++++++++++++++++++++++++++++++++++++
+ GiftExchangeClient/src/Components/Wishlist/GiftModal.jsx |   9 ++++++---
+ GiftExchangeClient/src/Components/Wishlist/Wishlist.jsx  |  36 ++++--------------------------------
+ 4 files changed, 60 insertions(+), 35 deletions(-)
+
+commit 6725170b8b9619774dd55e061bd1b38431f7c462
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Apr 26 08:16:44 2023 -0400
+
+    fixed delete gift fx
+
+ GiftExchangeClient/src/Components/Wishlist/GiftModal.jsx | 14 +++++++-------
+ GiftExchangeClient/src/Components/Wishlist/Wishlist.jsx  | 53 ++++++++++++++++++++++++++++++++++++++++-------------
+ 2 files changed, 47 insertions(+), 20 deletions(-)
+
+commit 0053ebc6126e60e9869abf236e73738ec4bae269
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Apr 26 07:28:02 2023 -0400
+
+    modal compoonent is working
+
+ GiftExchangeClient/src/Components/Wishlist/GiftModal.jsx | 13 +++++--------
+ GiftExchangeClient/src/Components/Wishlist/Wishlist.jsx  | 50 +++++++++++++++++++-------------------------------
+ 2 files changed, 24 insertions(+), 39 deletions(-)
+
+commit 4260eb6ed83423439b6433202a6900bdbedde2c9
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Apr 26 06:43:27 2023 -0400
+
+    made Gift toolbar work
+
+ .gitignore                                                              |   2 +
+ GiftExchangeClient/.env.example                                         |   1 +
+ GiftExchangeClient/package-lock.json                                    |  10 +++
+ GiftExchangeClient/package.json                                         |   1 +
+ GiftExchangeClient/src/App.jsx                                          |   6 +-
+ GiftExchangeClient/src/Components/Layouts/NavbarTop.jsx                 |   4 +-
+ GiftExchangeClient/src/Components/RegisterAndLogin/SigninLoginCard2.jsx | 196 -----------------------------------------------
+ GiftExchangeClient/src/Components/Wishlist/Gift.jsx                     |  86 ---------------------
+ GiftExchangeClient/src/Components/Wishlist/GiftCommandButtonsBar.jsx    |  18 +++++
+ GiftExchangeClient/src/Components/Wishlist/GiftModal.jsx                |  35 +++++++++
+ GiftExchangeClient/src/Components/Wishlist/Wishlist.jsx                 | 177 ++++++++++++++++++++++++++++++++++--------
+ documentation/doc_bruno/Journal de bord - Bruno Theoret.docx            | Bin 24773 -> 26034 bytes
+ 12 files changed, 217 insertions(+), 319 deletions(-)
+
+commit bba4c0bd5374fb65c586a1f4ef67aae98f14e6be
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Fri Apr 21 13:40:23 2023 -0400
+
+    restored SigninLoginCard.jsx from main
+
+ GiftExchangeClient/src/Components/RegisterAndLogin/SigninLoginCard.jsx | 119 +++++++++++++++---------------------------------
+ 1 file changed, 37 insertions(+), 82 deletions(-)
+
+commit 7709e8b9a7f2e847fff765fd3834ebcdb00d1c10
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Fri Apr 21 13:38:27 2023 -0400
+
+    feature added: gift as card | list, incomplete
+
+ GiftExchangeClient/src/App.jsx                                          |   8 ++
+ GiftExchangeClient/src/Components/RegisterAndLogin/SigninLoginCard.jsx  | 119 +++++++++++++++++++---------
+ GiftExchangeClient/src/Components/RegisterAndLogin/SigninLoginCard2.jsx | 196 +++++++++++++++++++++++++++++++++++++++++++++++
+ GiftExchangeClient/src/Components/Wishlist/Gift.jsx                     |  87 +++++++++++++++++++--
+ 4 files changed, 368 insertions(+), 42 deletions(-)
+
+commit 9d9a22d52f298c5673203a9fad6e4b313e8a679a
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Fri Apr 21 10:06:50 2023 -0400
+
+    added my documentation + fixed links in NavbarTop
+
+ GiftExchangeClient/src/App.jsx                               |   9 ++++++++-
+ GiftExchangeClient/src/Components/Layouts/NavbarTop.jsx      |   8 +++++---
+ documentation/doc_bruno/Journal - 04-18-2023.txt             |  10 ++++++++++
+ documentation/doc_bruno/Journal - 04-19-2023.txt             |  21 +++++++++++++++++++++
+ documentation/doc_bruno/Journal de bord - Bruno Theoret.docx | Bin 0 -> 24773 bytes
+ 5 files changed, 44 insertions(+), 4 deletions(-)
+
+commit 665af8ca11bbe63aa4313ce49d68aafa554207c3
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Apr 19 15:41:20 2023 -0400
+
+    finished logout in NavbarTop
+
+ GiftExchangeClient/src/App.jsx                  |  7 +++----
+ GiftExchangeClient/src/Components/NavbarBS.jsx  | 52 ----------------------------------------------------
+ GiftExchangeClient/src/Components/NavbarTW.jsx  | 57 ---------------------------------------------------------
+ GiftExchangeClient/src/Components/NavbarTop.jsx | 53 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ GiftExchangeClient/src/FakeUser.jsx             | 51 ---------------------------------------------------
+ 5 files changed, 56 insertions(+), 164 deletions(-)
+
+commit 5b0742963e2e107f87f97939b146c5c31f95fe51
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Apr 19 14:09:00 2023 -0400
+
+    added side NavbarUser in app.jsx and other stuff...
+
+ GiftExchangeClient/src/App.jsx                                  | 107 ++++++++++++++++++++++++++++++++-----------------------
+ GiftExchangeClient/src/Components/Layouts/LayoutGroups.jsx      |   0
+ GiftExchangeClient/src/Components/Layouts/LayoutWelcome.jsx     |   0
+ GiftExchangeClient/src/Components/NavbarUser.jsx                |  21 +++++++++++
+ GiftExchangeClient/src/Components/Pages/Layout2.jsx             |   0
+ documentation/doc_bruno/Wireframe/Layout Etienne 04-19-2023.png | Bin 0 -> 71535 bytes
+ 6 files changed, 83 insertions(+), 45 deletions(-)
+
+commit 2f778025282e0e6d6857dc1ccb3506a27168d8f0
+Merge: 068837b e1ddab5
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Apr 19 12:49:45 2023 -0400
+
+    Merge branch 'bruno' of https://github.com/crosemont809/giftexchange into bruno
+
+commit 068837b8c69687c397f951830d07609cf018ac9f
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Apr 19 12:46:13 2023 -0400
+
+    fixing package.json
+
+ package-lock.json | 784 -----------------------------------------------------------------------------------------------------
+ package.json      |   6 -
+ 2 files changed, 790 deletions(-)
+
+commit 617a087d6b26259592b0eeff3f49f4d8349e24cb
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Apr 19 12:29:45 2023 -0400
+
+    documented fixing bootstrap and react-bootsrap
+
+ GiftExchangeClient/src/Components/NavbarBS.jsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 87739bfb61215859a5e724fd0bd053d17e48dfe8
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Apr 19 12:18:24 2023 -0400
+
+    fixed tailwindcss conflicts with boostrap, installed react-bootstrap, bootstrap, fixed css/js w/ Bootstrap
+
+ GiftExchangeClient/package-lock.json                                   | 19 ++++++++++++++++++
+ GiftExchangeClient/package.json                                        |  1 +
+ GiftExchangeClient/src/App.jsx                                         | 13 +++++++------
+ GiftExchangeClient/src/Components/Button.jsx                           | 11 -----------
+ GiftExchangeClient/src/Components/Dropdown.jsx                         | 20 +++++++++----------
+ GiftExchangeClient/src/Components/Layout.jsx                           | 15 +++++++-------
+ GiftExchangeClient/src/Components/NavButton.jsx                        | 12 ++++++++++++
+ GiftExchangeClient/src/Components/NavbarBS.jsx                         | 52 +++++++++++++++++++++++++++++++++++++++++++++++++
+ GiftExchangeClient/src/Components/{Navbar.jsx => NavbarTW.jsx}         | 28 +++++++++++++-------------
+ GiftExchangeClient/src/Components/Pages/Dashboard.jsx                  |  6 +-----
+ GiftExchangeClient/src/Components/Pages/Help.jsx                       |  6 +++---
+ GiftExchangeClient/src/Components/RegisterAndLogin/LogoutButton.jsx    |  2 +-
+ GiftExchangeClient/src/Components/RegisterAndLogin/RegisterCard.jsx    | 10 +++++-----
+ GiftExchangeClient/src/Components/RegisterAndLogin/SigninLoginCard.jsx | 36 +++++++++++++++++-----------------
+ GiftExchangeClient/src/Components/UserInviteCard.jsx                   | 14 ++++++-------
+ GiftExchangeClient/src/Components/Wishlist/Gift.jsx                    |  2 ++
+ GiftExchangeClient/src/Components/Wishlist/Wishlist.jsx                | 35 +++++++++++++++++++++++++++++++++
+ GiftExchangeClient/src/index.css                                       |  8 ++++----
+ GiftExchangeClient/src/main.jsx                                        |  1 +
+ GiftExchangeClient/tailwind.config.js                                  |  9 ++++++---
+ 20 files changed, 206 insertions(+), 94 deletions(-)
+
+commit 1e4caaad1c4c2b8ed73a7ce085ef060cfad1a688
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Tue Apr 18 15:31:57 2023 -0400
+
+    re-added tailwindcss
+
+ GiftExchangeClient/package-lock.json         | 2454 ++++++++++++++++++-------------------------------------------------------
+ GiftExchangeClient/package.json              |    6 +-
+ GiftExchangeClient/postcss.config.js         |    6 +
+ GiftExchangeClient/src/Components/Button.jsx |    3 +-
+ GiftExchangeClient/tailwind.config.js        |    9 +
+ 5 files changed, 606 insertions(+), 1872 deletions(-)
+
+commit 220245dabf832e7b458b22a1c7ebfdbdbdd03cf1
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Tue Apr 18 15:15:21 2023 -0400
+
+    removed tailwindcss and added react-bootstrap
+
+ GiftExchangeClient/postcss.config.js                |   6 -
+ GiftExchangeClient/tailwind.config.js               |  12 --
+ documentation/doc_bruno/Wireframe/gift-xchange.bmpr | Bin 0 -> 1650688 bytes
+ package-lock.json                                   | 784 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ package.json                                        |   6 +
+ 5 files changed, 790 insertions(+), 18 deletions(-)
+
+commit be922823c313ab8cd0c138d10e8bcdaab98982cf
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Tue Apr 18 12:10:45 2023 -0400
+
+    added Gift component in wishlist feature
+
+ GiftExchangeClient/src/Components/Pages/NewGroup.jsx | 0
+ GiftExchangeClient/src/Components/Wishlist/Gift.jsx  | 7 +++++++
+ 2 files changed, 7 insertions(+)
+
+commit 03e2bf3591dd33cf840a51ce3d9a0383eedcb48a
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Fri Apr 14 10:24:38 2023 -0400
+
+    commiting before switching to branch bruno
+
+ documentation/doc_bruno/Journal - 04-14-2023.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 083230c7d2ac91b8df26ab68c57b148eb6bc01a2
+Merge: 34a34f9 0a83ed7
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Fri Apr 14 10:23:14 2023 -0400
+
+    Merge branch 'main' of https://github.com/crosemont809/giftexchange
+
+commit 34a34f9a84d5380d5afda82581ad72a83b74d26a
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Fri Apr 14 10:21:11 2023 -0400
+
+    added cahier des charges - sprint 1
+
+ documentation/SPRINTS/sprint 0/cahier de charges - sprint 0.docx | Bin 0 -> 16876 bytes
+ documentation/SPRINTS/sprint 1/cahier de charges - sprint 1.docx | Bin 0 -> 965499 bytes
+ documentation/doc_bruno/Journal - 04-14-2023.txt                 |   3 +++
+ 3 files changed, 3 insertions(+)
+
+commit 18af9fc66b0883528db0b632db0d33a5a7200247
+Merge: 4bcbaae 2ebdd3e
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Fri Apr 14 09:08:38 2023 -0400
+
+    Merge branch 'bruno'
+
+commit 2ebdd3e42ed520f62bbe82f05199e737df9c8160
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Fri Apr 14 08:56:28 2023 -0400
+
+    modifed backend to only return SuperAdmins in the GET users endpoint
+
+ GiftExchangeServer/Controllers/UsersController.cs                                |   3 +-
+ GiftExchangeServer/Data/Entities/User.cs                                         |   2 +
+ GiftExchangeServer/Data/GiftExchangeDbContext.cs                                 |  18 ++-
+ .../Migrations/20230414121308_addedIsSuperAdmin-field-in-User-Model.Designer.cs  | 255 ++++++++++++++++++++++++++++++++++++++
+ .../Migrations/20230414121308_addedIsSuperAdmin-field-in-User-Model.cs           |  71 +++++++++++
+ GiftExchangeServer/Migrations/GiftExchangeDbContextModelSnapshot.cs              |   9 ++
+ documentation/SPRINTS/sprint 1/poker-scrum.png                                   | Bin 0 -> 30594 bytes
+ documentation/doc_bruno/Journal - 04-07-2023.txt                                 |   6 +-
+ documentation/doc_bruno/Journal - 04-11-2023.txt                                 |   7 +-
+ 9 files changed, 355 insertions(+), 16 deletions(-)
+
+commit 013c7e08ddcce0236686476b8de0ceb5f3803ef6
+Merge: 0c759c3 acacfa0
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Fri Apr 14 08:03:45 2023 -0400
+
+    Merge branch 'bruno' of https://github.com/crosemont809/giftexchange into bruno
+
+commit 0c759c3b101d3a4a2bce384678c94b93d4e9b4ac
+Merge: 4cdc051 9ecbb76
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Fri Apr 14 07:54:35 2023 -0400
+
+    Merge https://github.com/crosemont809/giftexchange into bruno
+
+commit 4cdc051ed0d9e57eca430751a92a83ab5831f671
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Thu Apr 13 22:37:30 2023 -0400
+
+    added my Journal for the last 3 days
+
+ documentation/doc_bruno/Journal - 04-11-2023.txt |  6 ++++++
+ documentation/doc_bruno/Journal - 04-12-2023.txt | 10 ++++++++++
+ documentation/doc_bruno/Journal - 04-13-2023.txt |  5 +++++
+ 3 files changed, 21 insertions(+)
+
+commit 532a03f9b829254758fd2acb49d8a7e3d78a7dd8
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Thu Apr 13 14:35:14 2023 -0400
+
+    fixed class to className
+
+ GiftExchangeClient/src/App.jsx                                         |  2 ++
+ GiftExchangeClient/src/Components/Layout.jsx                           |  2 +-
+ GiftExchangeClient/src/Components/RegisterAndLogin/SigninLoginCard.jsx | 35 ++++++++++++++++++++---------------
+ 3 files changed, 23 insertions(+), 16 deletions(-)
+
+commit 4c02970a572ea15520a762a2585895956f0e2929
+Merge: 95405c6 9cb53c0
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Thu Apr 13 14:17:03 2023 -0400
+
+    Merge branch 'travail_Nicolas_Joey' of https://github.com/crosemont809/giftexchange into travail_Nicolas_Joey
+
+commit 95405c69527e0e40ccd6a6e5b8fc552c250a6ca6
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Thu Apr 13 14:01:02 2023 -0400
+
+    committing before merging bruno branch with main
+
+ GiftExchangeClient/src/Components/Pages/Help.jsx | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+commit 1837d927b0a250febb1e020a6bece3a25bfc8256
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Thu Apr 13 13:38:50 2023 -0400
+
+    changed variable names to bln* in app.js
+
+ GiftExchangeClient/src/App.jsx                        | 14 +++++++-------
+ GiftExchangeClient/src/Components/Navbar.jsx          |  5 ++---
+ GiftExchangeClient/src/Components/Pages/Dashboard.jsx |  9 +++++++--
+ 3 files changed, 16 insertions(+), 12 deletions(-)
+
+commit f4c64e6ed2976fb0f20b50dec1f1dd8378678630
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Thu Apr 13 12:59:44 2023 -0400
+
+    corrige les usagers (membres de l'equipe) pour la page about dans le backend
+
+ GiftExchangeServer/Data/GiftExchangeDbContext.cs                                 |  32 ++---
+ .../Migrations/20230413165740_updatedUsersOnModelCreating.Designer.cs            | 246 ++++++++++++++++++++++++++++++++++++++
+ GiftExchangeServer/Migrations/20230413165740_updatedUsersOnModelCreating.cs      | 123 +++++++++++++++++++
+ GiftExchangeServer/Migrations/GiftExchangeDbContextModelSnapshot.cs              |  30 +----
+ 4 files changed, 383 insertions(+), 48 deletions(-)
+
+commit 77abfde9e162daacecf03f8c25b9db8735546195
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Thu Apr 13 08:38:29 2023 -0400
+
+    committing before presenting to the team
+
+ GiftExchangeClient/src/App.jsx                        | 2 +-
+ GiftExchangeClient/src/Components/Navbar.jsx          | 3 ++-
+ GiftExchangeClient/src/Components/Pages/About.jsx     | 2 +-
+ GiftExchangeClient/src/Components/SigninLoginCard.jsx | 2 +-
+ 4 files changed, 5 insertions(+), 4 deletions(-)
+
+commit c420cdd98fcaaf05b0b65087ed7b69f390d9ea31
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Thu Apr 13 08:26:50 2023 -0400
+
+    fixed cors issue by changing api url requested from frontend to 7160
+
+ GiftExchangeClient/src/App.css                       |  2 ++
+ GiftExchangeClient/src/Components/Dropdown.jsx       |  8 ++++----
+ GiftExchangeClient/src/Components/Pages/About.jsx    |  4 ++--
+ GiftExchangeClient/src/Components/Pages/NewGroup.jsx |  0
+ GiftExchangeClient/src/Components/Pages/Welcome.jsx  |  3 ++-
+ GiftExchangeClient/src/index.css                     | 13 +++++++++++++
+ 6 files changed, 23 insertions(+), 7 deletions(-)
+
+commit 7443a8a75a352771d077eaafff699ad48451bbfd
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Apr 12 19:25:53 2023 -0400
+
+    finished adding component pages for today...
+
+ GiftExchangeClient/src/App.jsx                                   |  4 +++-
+ GiftExchangeClient/src/Components/Layout.jsx                     |  4 ++--
+ GiftExchangeClient/src/Components/Navbar.jsx                     |  2 +-
+ GiftExchangeClient/src/Components/Pages/CompleteRegistration.jsx | 10 ++++++++++
+ GiftExchangeClient/src/Components/Pages/Footer.jsx               | 10 ++++++++++
+ GiftExchangeClient/src/Components/Pages/LostPassword.jsx         | 10 ++++++++++
+ GiftExchangeClient/src/Components/SigninLoginCard.jsx            |  4 +++-
+ 7 files changed, 39 insertions(+), 5 deletions(-)
+
+commit dbe62278f58c8dde152c69648b8b2e239e14ffb7
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Apr 12 19:08:04 2023 -0400
+
+    added react-router-dom for page navigation
+
+ GiftExchangeClient/src/App.jsx                        | 14 +++++++++++---
+ GiftExchangeClient/src/Components/Layout.jsx          |  2 +-
+ GiftExchangeClient/src/Components/Navbar.jsx          | 13 ++++++++-----
+ GiftExchangeClient/src/Components/Pages/Dashboard.jsx | 10 ++++++++++
+ GiftExchangeClient/src/Components/Pages/Help.jsx      | 10 ++++++++++
+ GiftExchangeClient/src/Components/Pages/Welcome.jsx   |  2 +-
+ GiftExchangeClient/src/main.jsx                       |  7 +++----
+ 7 files changed, 44 insertions(+), 14 deletions(-)
+
+commit 174a520ece1a632cbd1f670e0d8bf9662c06e4d1
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Apr 12 18:28:35 2023 -0400
+
+    fixed CORS issue in backend by adding a middleware and created about page with team member's names fetched from DB
+
+ GiftExchangeClient/src/Components/Pages/About.jsx | 19 ++++++-------------
+ GiftExchangeServer/Data/GiftExchangeDbContext.cs  |  6 +++---
+ GiftExchangeServer/Program.cs                     | 20 +++++++++++++++++++-
+ 3 files changed, 28 insertions(+), 17 deletions(-)
+
+commit ff25d76aeb206364d1891698d54038e22b5f76c3
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Apr 12 17:36:43 2023 -0400
+
+    commiting before setting up cors in the backend
+
+ GiftExchangeClient/package-lock.json              | 215 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ GiftExchangeClient/package.json                   |   4 +-
+ GiftExchangeClient/src/App.jsx                    |   5 +-
+ GiftExchangeClient/src/Components/Pages/About.jsx |  38 +++++++++++++
+ GiftExchangeClient/src/main.jsx                   |   5 +-
+ 5 files changed, 262 insertions(+), 5 deletions(-)
+
+commit 4b475fc50727bed849c9b69895554395b9f792ae
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Apr 12 16:59:39 2023 -0400
+
+    added gift icon svg
+
+ GiftExchangeClient/index.html                       |  2 +-
+ GiftExchangeClient/public/gift-196.svg              |  1 +
+ GiftExchangeClient/public/vite.svg                  |  1 -
+ GiftExchangeClient/src/App.jsx                      |  8 +++++---
+ GiftExchangeClient/src/Components/Dropdown.jsx      |  8 +++++---
+ GiftExchangeClient/src/Components/Navbar.jsx        |  6 +++---
+ GiftExchangeClient/src/Components/Pages/Welcome.jsx | 10 ++++++++++
+ 7 files changed, 25 insertions(+), 11 deletions(-)
+
+commit 75a2cf7ccc09b4d02e0b22c2781837353c300fec
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Apr 12 16:15:05 2023 -0400
+
+    improved the layout a bit...
+
+ GiftExchangeClient/src/App.jsx                        |  2 +-
+ GiftExchangeClient/src/Components/Dropdown.jsx        |  6 ++++++
+ GiftExchangeClient/src/Components/Layout.jsx          | 12 ++++++------
+ GiftExchangeClient/src/Components/SigninLoginCard.jsx |  2 +-
+ 4 files changed, 14 insertions(+), 8 deletions(-)
+
+commit e7a07f0ffa31d205a49e09c501e11022644f49b4
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Apr 12 15:27:29 2023 -0400
+
+    added dropdown component for admin user
+
+ GiftExchangeClient/src/App.jsx                        | 13 ++++---------
+ GiftExchangeClient/src/Components/Dropdown.jsx        | 64 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ GiftExchangeClient/src/Components/Layout.jsx          |  6 ++----
+ GiftExchangeClient/src/Components/Navbar.jsx          |  4 ++++
+ GiftExchangeClient/src/Components/SigninLoginCard.jsx |  6 +++---
+ GiftExchangeClient/src/Components/UserInviteCard.jsx  |  2 +-
+ 6 files changed, 78 insertions(+), 17 deletions(-)
+
+commit 386f4c1ad803dc29d58a8724acb3a5d6f08abd47
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Apr 12 13:01:11 2023 -0400
+
+    fixed hamburger menu with react-icons and added className + htmlFor in components
+
+ GiftExchangeClient/src/App.jsx                        |  4 +++-
+ GiftExchangeClient/src/Components/Layout.jsx          |  8 ++++----
+ GiftExchangeClient/src/Components/Navbar.jsx          | 13 +++++++------
+ GiftExchangeClient/src/Components/SigninLoginCard.jsx | 32 ++++++++++++++++----------------
+ GiftExchangeClient/src/Components/UserInviteCard.jsx  | 14 +++++++-------
+ GiftExchangeClient/src/index.css                      |  5 +++--
+ 6 files changed, 40 insertions(+), 36 deletions(-)
+
+commit ff11c454d2ce70a6f1b38f0da486bf6d552379ad
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Apr 12 11:51:08 2023 -0400
+
+    made Layout component show/work in App.js
+
+ GiftExchangeClient/src/App.jsx               | 18 +++++++++++-------
+ GiftExchangeClient/src/Components/Layout.jsx |  6 +++---
+ 2 files changed, 14 insertions(+), 10 deletions(-)
+
+commit 8c258458d3197f317f8e768e8cb0232f02017095
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Tue Apr 11 16:59:59 2023 -0400
+
+    adding Layout component + Navbar (test) to frontend before branching on my own branch
+
+ GiftExchangeClient/src/Components/Button.jsx     | 12 ++++++++++++
+ GiftExchangeClient/src/Components/Layout.jsx     | 23 +++++++++++++++++++++++
+ GiftExchangeClient/src/Components/Navbar.jsx     | 49 +++++++++++++++++++++++++++++++++++++++++++++++++
+ documentation/doc_bruno/Journal - 04-10-2023.txt | 17 +++++++++++++++++
+ 4 files changed, 101 insertions(+)
+
+commit 863f7f518e338ba26e96f65437cfc033370aae89
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Mon Apr 10 10:43:43 2023 -0400
+
+    added colleagues users to DB
+
+ GiftExchangeServer/Data/GiftExchangeDbContext.cs                                 |  91 ++++++++++---
+ .../Migrations/20230410143114_addedColleaguesUsersToDb.Designer.cs               | 264 ++++++++++++++++++++++++++++++++++++++
+ GiftExchangeServer/Migrations/20230410143114_addedColleaguesUsersToDb.cs         |  63 +++++++++
+ GiftExchangeServer/Migrations/GiftExchangeDbContextModelSnapshot.cs              |  54 ++++++++
+ 4 files changed, 454 insertions(+), 18 deletions(-)
+
+commit 79c1dc429f2436e599001a596a59a99e771d7856
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Mon Apr 10 10:05:43 2023 -0400
+
+    configured personnalConfigs.json again
+
+ documentation/doc_bruno/{_personnalConfigs.json => personnalConfigs.json} | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit dde072773fcb480db4984656bb058bab015ca72a
+Merge: e298837 e2b0821
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Mon Apr 10 09:59:55 2023 -0400
+
+    Merge branch 'main' of https://github.com/crosemont809/giftexchange
+
+commit e298837d10da43c298f81fb0b596470b15f95319
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Mon Apr 10 09:51:15 2023 -0400
+
+    modified my personnalConfigs.json file
+
+ GiftExchangeServer/personnalConfigs.json       | 2 +-
+ documentation/doc_bruno/_personnalConfigs.json | 7 +++++++
+ 2 files changed, 8 insertions(+), 1 deletion(-)
+
+commit 8968862f3c8386aca2bd2377ed4496e2e75a96fe
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Sat Apr 8 19:12:07 2023 -0400
+
+    added sending email functionnality from code to server application
+
+ GiftExchangeClient/index.html                                                   |  25 +++--
+ GiftExchangeClient/package-lock.json                                            |  17 +++-
+ GiftExchangeClient/package.json                                                 |   3 +-
+ GiftExchangeClient/src/App.jsx                                                  |   3 +
+ GiftExchangeClient/src/Components/SigninLoginCard.jsx                           |  37 +++++++
+ GiftExchangeClient/src/Components/UserInviteCard.jsx                            |  28 ++----
+ GiftExchangeServer/Controllers/UsersController.cs                               | 124 +++++++++++++++++++++++
+ GiftExchangeServer/Data/GiftExchangeDbContext.cs                                |  22 ++++
+ GiftExchangeServer/GiftExchangeServer.csproj                                    |   1 +
+ GiftExchangeServer/GiftExchangeServer.csproj.user                               |   9 ++
+ GiftExchangeServer/Migrations/20230408230621_seedingUsersToDatabase.Designer.cs | 210 +++++++++++++++++++++++++++++++++++++++
+ GiftExchangeServer/Migrations/20230408230621_seedingUsersToDatabase.cs          |  39 ++++++++
+ GiftExchangeServer/Migrations/GiftExchangeDbContextModelSnapshot.cs             |  20 ++++
+ GiftExchangeServer/Utils/EmailUtility.cs                                        |  39 ++++++++
+ Presentation du Projet.docx                                                     | Bin 304223 -> 304945 bytes
+ documentation/doc_bruno/Journal - 04-07-2023.txt                                |  11 +-
+ documentation/doc_bruno/MES NOTES DEV.txt                                       |  47 +++++++++
+ 17 files changed, 602 insertions(+), 33 deletions(-)
+
+commit 59af5a3b7629756f5cb194e7d27d230e17eb21bd
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Fri Apr 7 11:06:48 2023 -0400
+
+    added presentation du projet.docx to project root
+
+ GiftExchangeClient/src/App.jsx                       |   6 +++---
+ GiftExchangeClient/src/Components/UserInviteCard.jsx |  37 +++++++++++++++++++++++++++++++++++++
+ Presentation du Projet.docx                          | Bin 0 -> 304223 bytes
+ documentation/doc_bruno/Journal - 04-07-2023.txt     |   3 +++
+ 4 files changed, 43 insertions(+), 3 deletions(-)
+
+commit c26f99f83b142e3a2e1a6fe8328208a226411360
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Fri Apr 7 09:59:36 2023 -0400
+
+    added tailwindcss to react project
+
+ GiftExchangeClient/package-lock.json                         | 1472 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ GiftExchangeClient/package.json                              |    3 +
+ GiftExchangeClient/postcss.config.js                         |    6 +
+ GiftExchangeClient/src/App.jsx                               |   24 +-
+ GiftExchangeClient/src/Login.jsx                             |   49 --
+ GiftExchangeClient/src/Utils.jsx                             |   40 --
+ GiftExchangeClient/src/index.css                             |   11 +-
+ GiftExchangeClient/src/main.jsx                              |    4 +-
+ GiftExchangeClient/tailwind.config.js                        |   12 +
+ GiftExchangeServer/personnalConfigs.json                     |    2 +-
+ documentation/doc_bruno/GiftExchange Database Diagram v1.png |  Bin 0 -> 15425 bytes
+ documentation/doc_bruno/Journal - 04-06-2023.txt             |   22 +
+ 12 files changed, 1517 insertions(+), 128 deletions(-)
+
+commit 3f14c6cdf76be60c479469302c1f6357379c5f40
+Merge: a5ba5a5 45c0af3
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Thu Apr 6 16:08:26 2023 -0400
+
+    Merge branch 'main' of https://github.com/crosemont809/giftexchange
+
+commit a5ba5a57f2905755043b6e16a4ca88688ad8c0ad
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Thu Apr 6 16:07:26 2023 -0400
+
+    created database ojects in VS - code first
+
+ GiftExchangeServer/Data/Entities/Gift.cs         | 20 ++++++++++++++++++++
+ GiftExchangeServer/Data/Entities/Group.cs        | 19 +++++++++++++++++++
+ GiftExchangeServer/Data/Entities/GroupUser.cs    | 24 ++++++++++++++++++++++++
+ GiftExchangeServer/Data/Entities/User.cs         | 15 +++++++++++++++
+ GiftExchangeServer/Data/GiftExchangeDbContext.cs | 26 ++++++++++++++++++++++++++
+ GiftExchangeServer/appsettings.json              |  7 ++++++-
+ documentation/doc_bruno/Journal - 04-03-2023.txt | 13 +++++++++++++
+ 7 files changed, 123 insertions(+), 1 deletion(-)
+
+commit 498fb85ccfadcfbdf58617cd141ffd13fd2c5d47
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Fri Mar 31 10:50:29 2023 -0400
+
+    added sprints folders
+
+ documentation/SPRINTS/sprint 0/Livrable 1 - Vision du produit/Wireframes/git extendions settings.png  | Bin 0 -> 573665 bytes
+ documentation/SPRINTS/sprint 0/Livrable 1 - Vision du produit/Wireframes/wireframe - home.png         | Bin 0 -> 169421 bytes
+ documentation/SPRINTS/sprint 0/Livrable 1 - Vision du produit/Wireframes/wireframe - login.png        | Bin 0 -> 53239 bytes
+ .../SPRINTS/sprint 0/Livrable 1 - Vision du produit/Wireframes/wireframe - signup (create group).png  | Bin 0 -> 83208 bytes
+ documentation/SPRINTS/sprint 0/Livrable 1 - Vision du produit/Wireframes/wireframe - signup.png       | Bin 0 -> 58464 bytes
+ documentation/SPRINTS/sprint 0/Livrable 1 - Vision du produit/Wireframes/wireframe - user profile.png | Bin 0 -> 109116 bytes
+ .../sprint 0/Livrable 1 - Vision du produit/Wireframes/wireframe - user wishlist (add gift).png       | Bin 0 -> 91905 bytes
+ .../sprint 0/Livrable 1 - Vision du produit/Wireframes/wireframe - user wishlist (gift details).png   | Bin 0 -> 118536 bytes
+ .../SPRINTS/sprint 0/Livrable 1 - Vision du produit/Wireframes/wireframe - user wishlist.png          | Bin 0 -> 100910 bytes
+ documentation/doc_bruno/VIM CheatSheet.png                                                            | Bin 0 -> 171905 bytes
+ documentation/doc_bruno/git openclassrooms finished bruno theoret email.png                           | Bin 0 -> 120551 bytes
+ 11 files changed, 0 insertions(+), 0 deletions(-)
+
+commit ce92c52d059c50369bffcc898155d8976cf4bd03
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Thu Mar 30 20:36:16 2023 -0400
+
+    added final documentation for bruno theoret
+
+ documentation/doc_bruno/Journal - 03-30-2023.txt                      |   3 ++
+ documentation/doc_bruno/Journal - 03-31-2023.txt                      |   1 +
+ documentation/doc_bruno/_Agile - Gestion de Projet RESUME.txt         |  94 +++++++++++++++++++++++++++++++++++++++++++++++++
+ documentation/doc_bruno/_Agile vs Waterfall - Gestion de Projet.docx  | Bin 0 -> 6459229 bytes
+ documentation/doc_bruno/git openclassrooms finished bruno theoret.png | Bin 0 -> 118825 bytes
+ 5 files changed, 98 insertions(+)
+
+commit b8fd412a5d326b30e4579546a054e57443f4a818
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Mar 29 20:24:41 2023 -0400
+
+    modified bruno's journal
+
+ documentation/doc_bruno/Journal - 03-29-2023.txt | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+commit f1479e8d0444128b8ce225bebfc09db25d6e424b
+Merge: 703c64d 85e26af
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Mar 29 20:09:53 2023 -0400
+
+    Merge branch 'main' of https://github.com/holabruno/projet-integration-gr809-crosemont-2023
+
+commit 703c64d7fdc1399da715c8128fcb5a4f859458c3
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Mar 29 20:08:51 2023 -0400
+
+    added my doc 2023-03-29
+
+ documentation/doc_bruno/Journal - 03-29-2023.txt | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+commit 1d939c34d473e69530b966b39f54210dc3c2da34
+Merge: 896dcec c9d55ab
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Mar 29 18:53:44 2023 -0400
+
+    Merge branch 'main' of https://github.com/holabruno/projet-integration-gr809-crosemont-2023
+
+commit 896dcec36dea3937c4dcda3149805edfb480b76a
+Author: Bruno Theoret <holabruno@gmail.com>
+Date:   Wed Mar 29 18:52:19 2023 -0400
+
+    commiting changes before pushing
+
+ .vs/S5/FileContentIndex/692b4646-78d7-40ef-85c3-932d1a3281fe.vsidx | Bin 0 -> 2543 bytes
+ .vs/S5/FileContentIndex/975c0455-1f63-467a-ab71-3f5afdb33e37.vsidx | Bin 0 -> 1733 bytes
+ .vs/S5/FileContentIndex/e0e3f26f-d5ac-4333-a70b-fda95e9f1c10.vsidx | Bin 0 -> 1487 bytes
+ .vs/S5/FileContentIndex/read.lock                                  |   0
+ .vs/S5/v17/.wsuo                                                   | Bin 0 -> 14336 bytes
+ .vs/VSWorkspaceState.json                                          |   6 ++++++
+ .vs/slnx.sqlite                                                    | Bin 0 -> 90112 bytes
+ documentation/regles de programmation.txt                          |  11 +++++++++++
+ 8 files changed, 17 insertions(+)

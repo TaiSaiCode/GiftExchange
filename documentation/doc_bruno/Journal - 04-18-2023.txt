@@ -1,0 +1,10 @@
+installer react-bootstrap
+
+tester composants react-bootstrap avec tailwindcss: echec
+
+desinstaller tailwindcss
+tester composants react-bootstrap sans tailwindcss: echeck; le style ne s'applique pas.  Aussi, le Dropdown dans le Navbar en javascript ne fonctionne pas
+
+reinstaller tailwindcss pour ne pas avoir a changer les composants deja crees
+
+ajouter l'option prefix: 'tw-', dans le fichier tailwind.config.css et prefixer toutes les classes css tailwind par tw- dans les fichiers *.jsx ou c'est utilise

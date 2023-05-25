@@ -1,0 +1,13 @@
+Création d'un document word pour les fonctionnalités de l'appplication et d'un document Excel pour le backlog du produit.
+
+En equipe: creer les epics, user story, et les taches.  Les sub tasks d'un user story sont liees a un sprint et les sub tasks doivent etre completees dans ce sprint
+
+assigner le temps necessaire a la terminaison de chaque tache
+
+Si on fait des tasks, on les lie a des 
+
+Installer l'application JIRA dans GitHub pour lier le repo avec le projet JIRA.
+
+
+
+

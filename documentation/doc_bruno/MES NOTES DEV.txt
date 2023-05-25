@@ -1,0 +1,47 @@
+#INSTALL SWAGGER (OPEN API)
+
+Install-Package Swashbuckle.AspNetCore
+
+---
+
+Program.cs:
+
+var builder = WebApplication.CreateBuilder(args);
+// Add services to the container.
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+var app = builder.Build();
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+app.UseAuthorization();
+app.MapControllers();
+app.Run();
+
+#CREATE AN ASP.NET WEB API APP
+
+EFCORE RELATIONSHIPS WITH FLUENT API: https://www.tutorialspoint.com/entity_framework/entity_framework_fluent_api.htm
+
+EFCORE CODE FIRST: https://www.tutorialspoint.com/entity_framework/entity_framework_code_first_migration.htm
+
+FLUENT API SEED DATABASE: https://www.tutorialspoint.com/entity_framework/entity_framework_seed_database.htm
+
+------------------------------------------------------------------------------------------------------------------------
+#ADDING A USERS CONTROLLER
+
+right click > add... > Scaffolded Items > API Controller with actions using EF
+
+
+DTO and POCO with EFMapper: https://www.codeproject.com/Tips/5328579/How-to-Easily-Map-between-Entities-and-DTOs-when-u
+https://github.com/keeper013/Oasis.EFMapper
+
+Setup Gmail: https://support.google.com/mail/thread/146949535/the-server-response-was-5-7-0-authentication-required?hl=en
+Sign into the Gmail account using a web browser at https://mail.google.com, then go to All Settings > Accounts and Import > Other Google Account settings. Under Security, scroll down and enable access for less secure apps. *** not used anymore :-(
+
+
+Send emails using Java and ZOHO: https://medium.com/beingcoders/alternative-to-less-secure-apps-gmail-2022-c1618a9f5efd
+

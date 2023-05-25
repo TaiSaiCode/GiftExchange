@@ -1,0 +1,5 @@
+﻿{
+    "ConnectionStrings": {
+        "GiftExchangeDatabase": "data source=DESKTOP-C2PKK87;initial catalog=giftExchange_db;Trusted_Connection=True;MultipleActiveResultSets=true;Encrypt=false"
+    }
+}

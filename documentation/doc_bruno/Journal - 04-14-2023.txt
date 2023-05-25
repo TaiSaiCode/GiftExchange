@@ -1,0 +1,5 @@
+lire la doc de https://www.npmjs.com/package/react-cookie pour les logins JWT
+
+reunion scrum (3h00)
+
+debuter et terminer le cahier des charges pour le sprint 1

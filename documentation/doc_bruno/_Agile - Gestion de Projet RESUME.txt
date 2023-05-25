@@ -1,0 +1,94 @@
+Lien : https://www.youtube.com/watch?v=ZBaCbdWYLeA
+
+Cycle de vie adaptative (incrémental et adaptatif (scrum & XP))
+Timebox est fixe : on s’entend sur une date de fin et un budget.  Tout est prédéterminé.  La durée de chaque itération (sprint) est aussi déterminée.
+
+Il y a 6 livrables importants dans la gestion de projet Agile :
+1- Vision du produit
+2- Backlog du produit (carnet du produit)
+3- Plan de livraison
+4- backlog du sprint
+5- burndown chart / liste de problèmes
+6- revue & rétrospective
+
+---
+
+Sprint 0 
+Est composé de la vision du produit (1), du backlog du produit (2) et du plan de livraison (3)
+1- Vision du produit (chartre de projet).  Premier livrable à produire par l’équipe scrum.
+2- Backlog du produit.  Le concept le plus important en Agile.  Équivaut au WBS de Waterfall (structure de découpage du projet en mode traditionnel).  Définit la liste de tous les livrables, de toutes les caractéristiques devant faire partie de la solution d’affaires.  Le product owner gère le backlog du produit.  Le back log évolue avec le temps.  Il y a un backlog initial comportant une série de fonctionnalités qui évolue.
+3- Plan de livraison : l’équivalent du plan de projet en traditionnel.  On planifie le projet dans le temps et dans l’argent.
+
+4- Backlog du sprint : Avant chaque sprint, le groupe d’exécution de la planification de (dirigé par le scrum master, et supporté par le product owner) est chargé  de définir une liste des tâches nécessaire pour livrer les fonctionnalités.
+
+5- Burndown chart : l’équivalent au rapport d’avancement en gestion de projet traditionnel
+
+6- Liste de problèmes ou « impedement list, impedement backlog ».  Le scrum master gère cette liste.
+
+---
+
+Premier livrable : Vision du produit
+Product vision box & Wireframe.  
+Le product owner va communiquer sa vision du produit.  Pour s’assure que l’équipe comprend bien, l’équipe SCRUM développera une maquette, un prototype fil de fer pour s’assurer ce qui est IN et ce qui est OUT.  Permet de clarifier le QUOI et le POURQUOI; les objectifs du projet.
+
+---
+
+Deuxième livrable : backlog du produit (CARNET DU PRODUIT) 
+Le livrable backlog du produit le plus important en gestion de projet AGILE.  On doit produire des FONCTIONNALITÉS, des caractéristiques fonctionnelles du produit.  
+
+User story
+C’est la liste des caractéristiques du produit ou du service.  On utilise des USER STORY (récit utilisateurs, ou scénarios utilisateurs). Un USER STORY permet d’exprimer un besoin et est composé de 3 parties distinctes : 
+1- rôle
+2- exprime le besoin
+3- exprime la justification du besoin
+
+Le product owner (client payeur) est responsable du baklog du produit!  Doit s’assurer que toutes les fonctionnalités sont inclues dans le backlog
+Première étape : identifier les user story / items du backlog / exigences de la solution
+Deuxième étape : prioriser les items du backlog (rôle du product owner), en fonction de la VALEUR (retour sur investissement).  Développer une fonctionnalité a un cout et cette fonctionnalité devrait ramener de la valeur.
+
+User story
+C’est la liste des caractéristiques du produit ou du service.  On utilise des USER STORY (récit utilisateurs, ou scénarios utilisateurs). Un USER STORY permet d’exprimer un besoin et est composé de 3 parties distinctes : 
+1- rôle
+2- exprime le besoin
+3- exprime la justification du besoin
+
+Le product owner (client payeur) est responsable du baklog du produit!  Doit s’assurer que toutes les fonctionnalités sont inclues dans le backlog
+Première étape : identifier les user story / items du backlog / exigences de la solution
+Deuxième étape : prioriser les items du backlog (rôle du product owner), en fonction de la VALEUR (retour sur investissement).  Développer une fonctionnalité a un cout et cette fonctionnalité devrait ramener de la valeur.
+
+L’équipe SCRUM estime les items du backlog effort en heures par personne.  On peut utiliser le planning poker (méthode d’estimation relative des efforts en heures par personne.
+
+La vélocité (Capacité de l’équipe) permet de découper (SLICER) le backlog en sprints.  
+
+---
+
+Troisième livrable : Plan de livraison 
+Il reste à assigner des sprints à des livraisons (version incomplète mais fonctionnelle qui satisfait les besoins essentiels des utilisateurs).  Fait par le product owner.  
+
+L’ensemble des plans de livraison est la roadmap ou la feuille de route.
+
+Ici, on assigne des sprints à des livraisons.  Les sprints sont de durée fixe : de 1 à 4 semaines.
+
+---
+
+Quatrième livrable : Backlog du Sprint 
+
+Ici, on planifie le sprint pur produire le backlog du sprint.
+On éclate les user story du sprint 1 en tâches.  L’Équipe SCRUM détermine toutes les tâches nécessaires à la livraison des items / user story du sprint 1.
+Objectif de la planification : produire le backlog du sprint (plan détaillé)
+
+On veut que les gens s’engagent à livrer toutes ces tâches à temps.  Si l’équipe scrum voit que ce n’est pas possible, on va retarder la livraison de certaines fonctionnalités.
+L’ensemble des plans de livraison est le ROADMAP.
+Timebox : on respecte en tout temps la date de fin
+
+---
+
+Cinquieme livrable: burndown chart (correspond au rapport d’avancement du projet traditionnel).  C’est la courbe dégressive des efforts restants.
+
+Si je ne suis pas capable de tout livrer, aller chercher d’avantage de disponibilités chez mes gens ou repousser la livraison de certains items au prochain sprint.  
+
+---
+
+Sixieme livrable: liste des problemes
+
+

@@ -1,0 +1,17 @@
+9h am à midi
+
+ajoute les collegues users a la base de donnees
+
+Ajouter des User Stories & tâches à l'épic 'Éléments de base du Front-End'
+
+User Stories: 
+  Creer les Composants {children} a inclure dans le Layout : dashboard admin
+  Creer les Composants {children} a inclure dans le Layout : dashboard user
+  
+En équipe: faire fonctionner Visual Studio et MSSQL server sur le nouvel ordi de Franck Della (succès) et de Nicolas (échec)
+
+Assigner les tâches et les binômes:
+  Bruno et Franck: GUI React
+  Joey et Nicolas: 
+  Etienne et Tom:   JWT login et session
+

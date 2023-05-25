@@ -1,0 +1,10 @@
+crée un composant Layout qui inclus un composant enfant <Dashboard /> si logged in ou <Welcome /> si pas loggged in
+
+utliser Tailwind CSS Grid pour positionner les composants dans le composant Layout
+
+Composants crées: Navbar (copié le code HTML d'un site 3rd party et changé les icones pour react-icons/fa
+
+Crée un compostant Dropdown (menu d'administration pour la gestion de la pige, du groupe, des participants, etc): ajouté un état 'ouvert' et changé le style CSS en utilisant du string interpolation pour toggle hidden/visible (null)
+
+utiliser react-router-dom@6 pour la navigation entre les composants de l'application React SPA
+
